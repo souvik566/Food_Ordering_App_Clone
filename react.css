@@ -1,0 +1,170 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+#header {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 100px;
+   width: 100%;
+   background-color: rgb(255, 255, 255);
+   border-bottom: 5px solid rgb(222, 219, 219);
+   height: 70px;
+   position: fixed;
+   top: 0; 
+   z-index: 100; 
+
+}
+
+#logo img { 
+   height:50px ;
+   width: 55px;
+   cursor: pointer;
+   position: relative;
+   left: 200px;
+}
+
+#inputbox {
+   height: 4vh;
+   width: 300px; /* Adjusted width for visibility */
+   border: 1px solid white;
+   outline: none;
+}
+
+#cart {
+   height: 10vh;
+   width: 10vh;
+   cursor: pointer; 
+   position: relative;
+   right: 20px;
+   top: -7px;
+}
+
+#user {
+   height: 40px;
+   width: 40px;
+   cursor: pointer; 
+}
+
+#links {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 50px;
+}
+
+#home, #about {
+   text-decoration: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: black;
+   font-size: 20px;
+   position: relative;
+   top: 10px;
+}
+
+#search {
+   background-color: white;
+   cursor: pointer; 
+   position: relative;
+   left: -47px;
+   height: 25px;
+   border: 1px solid white;
+}
+
+#main {
+   width: 100%;
+   position: relative;
+   top: -40px;
+}
+
+.cards {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 150px;
+   width: 100%;
+   gap: 50px;
+   
+}
+.cards>.card:hover{
+border: 1px solid black;
+}
+
+.card {
+   height: 200px;
+   width: 200px;
+   cursor: pointer;
+   border-radius: 10%;
+  
+}
+.para>b{
+   font-size: 15px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.foodimg {
+   height: 120px;
+   width: 100%;
+   border-radius: 10%;
+   border-bottom-left-radius: 0%;
+   border-bottom-right-radius: 0%;
+
+}
+
+#mainheading {
+   margin-left: 20px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: relative;
+   top: 130px;
+}
+
+.para {
+   padding-left: 13px;
+   font-weight: 600;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 16px;
+}
+
+.para_2 {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 11px;
+   color: grey;
+   font-weight: 100;
+}
+
+#cards_2{
+   position: relative;
+   top: -110px;
+}
+#cards_3{
+   position: relative;
+   top: -60px;
+   height: 200px;
+   width: 200px;
+   left: 157px;
+}
+#cards_3:hover{
+   border: 1px solid black;
+}
+
+#footer{
+   width: 100%;
+   background-color: black;
+   color: white;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#footimg{
+   margin-top: 5px;
+   height:50px ;
+   width: 55px;
+   /* left: 200px; */
+   padding-left: 15px;
+}
+#deliver{
+   position: relative;
+   right: 5px;
+}
